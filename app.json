@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "imhere",
+    "name": "Eventos",
     "slug": "imhere",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -24,10 +24,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.matheusguim.eventCreator"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "e070afdf-3681-4066-a2d5-d960b6d7c9d4"
+      }
     }
   }
 }
